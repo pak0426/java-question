@@ -13,6 +13,9 @@ public class Main {
 
         System.out.println(s1 == s2); // false -> 객체의 주소값을 비교하기 떄문
         System.out.println(s1.equals(s2)); // true
+        System.out.println(s1.hashCode());
+        System.out.println(s2.hashCode());
+        System.out.println(s1.hashCode() == s2.hashCode()); // false
 
         Man man1 = new Man("hmmini");
         Man man2 = new Man("hmmini");
@@ -20,12 +23,14 @@ public class Main {
         System.out.println(man1.equals(man2)); //false -> 객체의 주소값을 비교하기 떄문
         System.out.println(man1.hashCode());
         System.out.println(man2.hashCode());
+        System.out.println(man1.hashCode() == man2.hashCode());
 
-        Woman woman1 = new Woman("yezi");
-        Woman woman2 = new Woman("yezi");
+        Woman woman1 = new Woman("mini");
+        Woman woman2 = new Woman("mini");
 
-        System.out.println(woman1.equals(woman2)); //true -> equals를 재정의하였음
+        System.out.println(woman1.equals(woman2)); //true -> overiding으로 재정의하였음
         System.out.println(woman1.hashCode());
         System.out.println(woman2.hashCode());
+        System.out.println(woman1.hashCode() == woman2.hashCode()); //true -> overiding으로 재정의하였음
     }
 }

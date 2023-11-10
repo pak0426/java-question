@@ -1,7 +1,7 @@
 package day2;
 
 public class Overriding {
-    public static void main(String argsp[]) {
+    public static void main(String args[]) {
         Parent parent = new Parent();
         parent.print();
         parent.plus(10, 20);

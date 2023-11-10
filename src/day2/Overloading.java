@@ -1,7 +1,7 @@
 package day2;
 
 public class Overloading {
-    public static void main(String argsp[]) {
+    public static void main(String args[]) {
         print();
         print("Hello!");
         print(10, 20);

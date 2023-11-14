@@ -4,6 +4,8 @@ public class Main {
     public static void main(String args[]) {
         Person person = new Person("hmmini", 28);
 
+        System.out.println("person = " + person);
+
         String name = person.getName();
         int age = person.getAge();
         System.out.println("이름 : " + name);

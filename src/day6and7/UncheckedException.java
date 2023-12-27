@@ -1,4 +1,4 @@
-package day6;
+package day6and7;
 
 public class UncheckedException {
      public static void main(String args[]) {

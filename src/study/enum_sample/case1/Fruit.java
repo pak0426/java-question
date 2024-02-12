@@ -1,7 +1,7 @@
 package study.enum_sample.case1;
 
 public class Fruit {
-    public String getIntValue(int originalValue) {
+    public String getTable1Value(int originalValue) {
         if (originalValue == 1) {
             return "Y";
         }
@@ -10,7 +10,7 @@ public class Fruit {
         }
     }
 
-    public boolean getBoolValue(String originalValue) {
+    public boolean getTable2Value(String originalValue) {
         if (originalValue.equals("Y")) {
             return true;
         }

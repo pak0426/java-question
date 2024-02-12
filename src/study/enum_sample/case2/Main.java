@@ -1,19 +1,26 @@
 package study.enum_sample.case2;
 
-import static study.enum_sample.case2.Calculator.*;
-
 public class Main {
-    public static void main(String args[]) {
-        Table table1 = new Table("A");
-        String str = table1.getData();
-        long value = 5L;
-        long result = start(str, value);
-        System.out.println("result = " + result);
+public static void main(String args[]) {
+    Table table1 = new Table("A");
+    String str = table1.getData();
+    long value = 5L;
+    long result = Calculator.start(str, value);
+    System.out.println("result = " + result);
 
-        CalculatorEnum calA = CalculatorEnum.CAL_A;
-        System.out.println("result2 = " + calA.calculate(value));
+    long value2 = 13L;
+    CalculatorEnum calA = getCalA();
+    System.out.println("result2 = " + calA.calculate(value2));
 
-        CalculatorEnum calB = CalculatorEnum.CAL_B;
-        System.out.println("result3 = " + calB.calculate(value));
+    CalculatorEnum calB = getCalB();
+    System.out.println("result3 = " + calB.calculate(value2));
+}
+
+    public static CalculatorEnum getCalA() {
+        return CalculatorEnum.CAL_A;
+    }
+
+    public static CalculatorEnum getCalB() {
+        return CalculatorEnum.CAL_B;
     }
 }

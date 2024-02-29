@@ -8,4 +8,8 @@ public class Parent {
     void hello() {
         System.out.println("Parent hello");
     }
+
+    protected void bye() {
+
+    }
 }

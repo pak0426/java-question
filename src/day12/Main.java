@@ -22,10 +22,10 @@ public class Main {
          */
 
         // 공변성
-        List<Object> aa = new ArrayList<Integer>();
+//        List<Object> aa = new ArrayList<Integer>();
 
         // 불공변성
-        List<Integer> bb = new ArrayList<Object>();
+//        List<Integer> bb = new ArrayList<Object>();
 
         // 다형성 (업캐스팅)
         Object parent = new Object();
@@ -47,7 +47,7 @@ public class Main {
         p = c;
 
         // 다운 캐스팅 불가능
-        c = p;
+//        c = p;
 
         /**
          * 제네릭 와일드 카드

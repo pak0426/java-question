@@ -1,7 +1,7 @@
 package study.try와catch그리고finally;
 
 public class Main {
-    public static void main(String[] args) {
+    protected static void main(String[] args) {
 //        test();
         testException();
     }
@@ -15,6 +15,7 @@ public class Main {
         }
         catch (Exception e) {
             e.printStackTrace();
+            System.out.println("예외로 왔습니다!");
         }
         finally {
             System.out.println("finally 입니다!!");

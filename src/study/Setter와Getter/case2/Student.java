@@ -1,6 +1,6 @@
 package study.Setter와Getter.case2;
 
-public class Student {
+class Student {
     private int score;
 
     private int presentationScore;

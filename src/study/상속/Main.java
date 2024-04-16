@@ -17,5 +17,13 @@ public class Main {
 //        pingu.showHabitat(); -> Animals의 참조변수임
 
 //        Penguin happy = new Animals(); -> Penguin happy = (Penguin) new Animals();
+        pingu.move();
+
+        Animals animals = new Animals();
+        animals.name = "포유류";
+        animals.showName();
+        animals.move();
+
+//        Penguin penguin = new Animals(); -> 자식은 부모가 될 수 없다.
     }
 }

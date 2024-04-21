@@ -9,6 +9,8 @@ public class Main {
         pororo.showName();
         pororo.showHabitat();
 
+        System.out.println();
+
         Animals pingu = new Penguin();
         pingu.name = "핑구";
 //        pingu.habitat = "핑구집"; -> Animals의 참조변수임
@@ -18,6 +20,8 @@ public class Main {
 
 //        Penguin happy = new Animals(); -> Penguin happy = (Penguin) new Animals();
         pingu.move();
+
+        System.out.println();
 
         Animals animals = new Animals();
         animals.name = "포유류";

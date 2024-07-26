@@ -31,28 +31,6 @@ public class Main {
         animals.showName();
         animals.move();
 
-        List<String> list = new ArrayList<>();
-        list.add("111");
-        list.add("222");
-        list.add("333");
-        list.add("000");
-
-
-        int asInt = list.stream()
-                .mapToInt(Integer::parseInt)
-                .max()
-                .getAsInt();
-        System.out.println(asInt);
-
-        List<String> list2 = new ArrayList<>();
-        int asInt2 = list2.stream()
-                .mapToInt(Integer::parseInt)
-                .max()
-                .getAsInt();
-        System.out.println(asInt);
-
-
-
 //        Penguin penguin = new Animals(); -> 자식은 부모가 될 수 없다.
     }
 }

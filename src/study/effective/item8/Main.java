@@ -16,7 +16,7 @@ public class Main {
     }
 
     // finalize를 사용하는 잘못된 예
-    static class BadResource {
+    static class BadResource {ddd
         public void use() {
             System.out.println("BadResource 사용 중");
         }

@@ -1,4 +1,4 @@
-package study.effective;
+package study.effective.item46;
 
 import java.util.*;
 import java.util.stream.Collectors;
